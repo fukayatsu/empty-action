@@ -4,12 +4,16 @@ const core = require("@actions/core");
 try {
   const command = core.getInput("post-command");
 
+  const githubRunId = core.getInput("github-run-id");
   const githubToken = core.getInput("github-token");
   const awsDefaultRegion = core.getInput("aws-default-region");
   const awsAccessKeyId = core.getInput("aws-access-key-id");
   const awsSecretAccessKey = core.getInput("aws-secret-access-key");
 
   let env = {};
+  if (githubRunId != "") {
+    env.GITHUB_RUN_ID = githubRunId;
+  }
   if (githubToken != "") {
     env.GITHUB_TOKEN = githubToken;
   }

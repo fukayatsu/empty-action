@@ -13,6 +13,10 @@ Command for main step. Default `"echo main"`.
 
 Command for post step. Default `"echo post"`.
 
+## `github-run-id`
+
+github actions run id. Default `""`.
+
 ## `github-token`
 
 github token for commands. Default `""`.
