@@ -13,6 +13,10 @@ inputs:
     description: 'Command for post step'
     required: false
     default: 'echo post'
+  github-token:
+    description: 'github token'
+    required: false
+    default: ''
 # outputs:
 #   time: # id of output
 #     description: 'The time we greeted you'

@@ -12,6 +12,10 @@ Command for main step. Default `"echo main"`.
 ## `post-command`
 
 Command for post step. Default `"echo post"`.
+
+## `github-token`
+
+github token for commands. Default `""`.
 ## Outputs
 
 None.
