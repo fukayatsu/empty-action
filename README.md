@@ -16,6 +16,10 @@ Command for post step. Default `"echo post"`.
 ## `github-token`
 
 github token for commands. Default `""`.
+
+## `aws-default-region` / `aws-access-key-id` / `aws-secret-access-key`
+
+aws params for commands. Default `""`.
 ## Outputs
 
 None.

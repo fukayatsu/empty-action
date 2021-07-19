@@ -17,6 +17,18 @@ inputs:
     description: 'github token'
     required: false
     default: ''
+  aws-default-region:
+    description: 'aws default region'
+    required: false
+    default: ''
+  aws-access-key-id:
+    description: 'aws access key id'
+    required: false
+    default: ''
+  aws-secret-access-key:
+    description: 'aws secret access key'
+    required: false
+    default: ''
 # outputs:
 #   time: # id of output
 #     description: 'The time we greeted you'
