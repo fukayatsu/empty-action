@@ -13,7 +13,7 @@ try {
   console.log(`Command: ${command}`);
 
   const output = execSync(command);
-  console.log(output);
+  console.log(output.toString());
 } catch (error) {
   core.setFailed(error.message);
 }
