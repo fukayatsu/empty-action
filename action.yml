@@ -1,0 +1,23 @@
+name: 'Empty Action'
+description: 'Empty Action'
+inputs:
+  pre-command:
+    description: 'Command for pre step'
+    required: false
+    default: 'echo pre'
+  main-command:
+    description: 'Command for main step'
+    required: false
+    default: 'echo main'
+  post-command:
+    description: 'Command for post step'
+    required: false
+    default: 'echo post'
+# outputs:
+#   time: # id of output
+#     description: 'The time we greeted you'
+runs:
+  using: 'node12'
+  pre: 'index.js'
+  main: 'index.js'
+  post: 'index.js'

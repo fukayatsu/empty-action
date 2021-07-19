@@ -1,0 +1,23 @@
+{
+  "name": "empty-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fukayatsu/empty-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fukayatsu/empty-action/issues"
+  },
+  "homepage": "https://github.com/fukayatsu/empty-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.4.0"
+  }
+}
