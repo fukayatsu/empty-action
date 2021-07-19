@@ -18,6 +18,6 @@ inputs:
 #     description: 'The time we greeted you'
 runs:
   using: 'node12'
-  pre: 'index.js'
-  main: 'index.js'
-  post: 'index.js'
+  pre: 'dist/index.js'
+  main: 'dist/index.js'
+  post: 'dist/index.js'
