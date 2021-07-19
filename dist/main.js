@@ -554,16 +554,7 @@ const { execSync } = __nccwpck_require__(129);
 const core = __nccwpck_require__(864);
 
 try {
-  let command;
-  if (!!process.env["STATE_isPre"]) {
-    command = core.getInput("pre-command");
-  } else if (!!process.env["STATE_isPost"]) {
-    command = core.getInput("post-command");
-  } else {
-    command = core.getInput("main-command");
-  }
-  console.log(`Command: ${command}`);
-
+  const command = core.getInput("main-command");
   const output = execSync(command);
   console.log(output.toString());
 } catch (error) {

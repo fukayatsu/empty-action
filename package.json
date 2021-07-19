@@ -2,7 +2,7 @@
   "name": "empty-action",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +11,8 @@
     "url": "git+ssh://git@github.com/fukayatsu/empty-action.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "fukayatsu",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fukayatsu/empty-action/issues"
   },
