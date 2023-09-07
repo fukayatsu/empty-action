@@ -37,7 +37,7 @@ inputs:
 #   time: # id of output
 #     description: 'The time we greeted you'
 runs:
-  using: 'node16'
+  using: 'node20'
   pre: 'dist/pre.js'
   main: 'dist/main.js'
   post: 'dist/post.js'
